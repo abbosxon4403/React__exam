@@ -19,7 +19,7 @@ export const Single = () => {
         <section>
             <Header />
             <div className="container single-cont">
-                <h3>Bad Design vs. Good Design: 5 Examples We can Learn From</h3>
+                <h3>sunt aut facere repellat provident occaecati excepturi optio reprehenderit</h3>
                 <div className="d-flex align-items-center">
                         <p className="main-texts">October 24.2020</p>
                         <div className="d-flex time-wrap align-items-center ms-4">

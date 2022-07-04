@@ -3,6 +3,7 @@ import './main.css'
 // img
 import arrow from '../../assets/img/arrow.png'
 import watch from '../../assets/img/watch.png'
+import { Link } from "react-router-dom"
 
 export const Main = () => {
 
@@ -60,7 +61,9 @@ const [posts , setPosts] = useState(null)
                             <p className="main-texts">September 24.2020</p>
                             <p>{post.id}</p>
                         </div>
+                        <Link className="text-decoration-none" to='/single'>
                 <h5 className="main-title">{post.title}</h5>
+                </Link>
                 <div className="d-flex time-wrap align-items-center">
                     <img src={watch} alt="watch" />
                 <p className="main-texts time">3 minutes read</p>
