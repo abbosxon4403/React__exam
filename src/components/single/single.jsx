@@ -27,7 +27,7 @@ export const Single = () => {
             <p className="main-texts time">3 minutes read</p>
             </div>
                     </div>
-                <img src={wall} alt="wall" />
+                <img className="wall" src={wall} alt="wall" />
                 <p className="single-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis sagittis sem ac porta. Sed commodo ligula vitae mollis tristique. Maecenas egestas semper mauris. Duis tempus blandit ultrices. Proin elit nulla, viverra id suscipit quis, tristique a dolor. Sed dapibus, orci ac luctus tincidunt, massa erat porttitor odio, non imperdiet dui risus et elit.
                 <h5 className="single-info my-4">Information overload</h5>
                 

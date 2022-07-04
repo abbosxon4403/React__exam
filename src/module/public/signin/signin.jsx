@@ -39,6 +39,7 @@ export const Signin = () =>{
             </div>
             <h1 className='login-heading'>Login</h1>
         <form className='login-form' onSubmit={HandleLogin} >
+            <div className='alert'>email: eve.holt@reqres.in</div>
             <div className='block'>
             <input ref={EmailRef} className={`login-input ${error ? 'is-invalid' : ''}`} type="email" placeholder="Login" required/>
             </div>

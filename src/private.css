@@ -1,3 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
 .left-heading {
     font-weight: 400;
     font-size: 24px;
@@ -53,7 +57,14 @@
 }
 
 .big {
+    display: flex;
     margin-top: 80px;
+}
+
+@media only screen and (max-width:1440px) {
+    section {
+        max-width: fit-content;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,6 +91,89 @@
         display: block;
     }
     .header-input {
-        width: 150px;
+        width: 285px;
+        height: 44px;
+    }
+    .header {
+        display: block;
+    }
+    .big {
+        display: flex;
+        flex-direction: column;
+    }
+    .main {
+        order: -1;
+    }
+    .left {
+        margin-bottom: 80px;
+    }
+    .main-btn-wrapper {
+        margin-right: 20px;
+    }
+    .main {
+        max-width: 360px;
+        overflow: hidden;
+    }
+    .error-img {
+        max-width: 320px;
+    }
+    .error-cont {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    .container {
+        max-width: 360px;
+        overflow-x: hidden;
+    }
+    section {
+        max-width: fit-content;
+        overflow-x: hidden;
+    }
+    .header-search {
+        width: 45px;
+        height: 44px;
+    }
+    .single-wrap-t {
+        margin: 0;
+        transform: translateY(-10%);
+        margin-bottom: 40px;
+    }
+    .single-wrap {
+        margin-top: 50px;
+        margin-bottom: 220px;
+    }
+    .single-line {
+        height: 352px;
+    }
+    .wrap2 {
+        max-width: 238px;
+        margin-right: 40px;
+    }
+    .menu {
+        display: block;
+    }
+    .login-logo {
+        width: 33px;
+        height: 33px;
+    }
+    .cursor {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .header-input {
+        width: 200px;
+        margin-top: 15px;
+    }
+    .footer-b {
+        display: none;
+    }
+    section {
+        max-width: 360px;
+        overflow-x: hidden;
     }
 }

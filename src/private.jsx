@@ -8,7 +8,7 @@ export const Private = () => {
 
         <div className="container">
             <Header />
-            <div className="big container d-flex">
+            <div className="big container">
             <LeftMain />
             <Main />
             </div>

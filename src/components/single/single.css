@@ -45,3 +45,9 @@
 .wrap2 {
     max-width: 670px;
 }
+
+@media only screen and (max-width: 426px) {
+    .wall {
+        max-width: 400px;
+    }
+}
