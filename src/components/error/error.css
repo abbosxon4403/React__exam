@@ -1,0 +1,48 @@
+.error-cont {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.error-img {
+    margin-bottom: 50px;
+}
+
+.error-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.error-text {
+    position: relative;
+    left: 25%;
+    width: 607px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474747;
+}
+
+.error-link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+}
+
+.error-link:hover {
+    color: #474747;
+    text-decoration: underline;
+}
+
+.error-link-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #474747;
+    margin-right: 16px;
+    margin-top: 3px;
+}

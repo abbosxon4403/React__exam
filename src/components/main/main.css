@@ -1,0 +1,61 @@
+.main {
+    width: 736px;
+    margin-bottom: 150px;
+}
+
+.main-texts {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777;
+}
+
+.main-title {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #474747;
+}
+
+.time-wrap {
+    margin-bottom: 16px;
+}
+
+.time {
+    margin-left: 11px;
+    position: relative;
+    top: 5px;
+}
+
+.line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #dfdfdf;
+}
+
+.inner-main {
+    margin-bottom: 46px;
+}
+
+.main-btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-arrow-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 3px;
+    border: none;
+}
+
+.page-btn {
+    height: 32px;
+    border: 0;
+}
+
+.rotated-btn {
+    transform: rotate(180deg);
+}
